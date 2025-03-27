@@ -1,7 +1,5 @@
 # Interactive Quiz Project
 
-![Interactive Quiz Screenshot](screenshot.png) <!-- Placeholder for a screenshot -->
-
 A modern, interactive quiz application built with HTML, CSS, and JavaScript. The quiz features a sleek design with a glassmorphism effect, a circular scoreboard, and a question-per-page layout to enhance user focus and engagement. Users can start the quiz, answer questions within a 60-second timer, and view their results on a dedicated score screen with a dynamic circular progress ring.
 
 ## Features
