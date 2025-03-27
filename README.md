@@ -20,6 +20,3 @@ A modern, interactive quiz application built with HTML, CSS, and JavaScript. The
   - Hover effects on buttons and answer options.
   - Animations for quiz content (fade-in), score screen (slide-in), and high scores (pulsing effect).
 - **Responsive**: The quiz is fully responsive and works on various screen sizes.
-
-## Project Structure
-"# Interactive-Quiz" 
