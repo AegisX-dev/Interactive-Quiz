@@ -25,3 +25,4 @@ A modern, interactive quiz application built with HTML, CSS, and JavaScript. The
 
 ## Project Structure
 "# Interactive-Quiz" 
+"# Interactive-Quiz" 

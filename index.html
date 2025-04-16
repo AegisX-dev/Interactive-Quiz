@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>General Knowledge Quiz</h1>
+        <button id="start-btn">Start Quiz</button>
+        <div id="quiz-content" class="hidden">
+            <div id="timer" class="timer"></div>
+            <div id="timer-progress" class="timer-progress"></div>
+            <form id="quiz-form">
+                <div id="questions"></div>
+                <div class="navigation">
+                    <button type="button" id="prev-btn">Previous</button>
+                    <button type="button" id="next-btn">Next</button>
+                    <button type="submit" id="submit-btn" class="hidden">Submit Answers</button>
+                </div>
+            </form>
+        </div>
+        <div id="score-screen" class="hidden">
+            <h2>Your Score</h2>
+            <div class="scoreboard">
+                <div class="circle-score">
+                    <div class="circle-ring">
+                        <div class="circle-progress"></div>
+                    </div>
+                    <span id="score-text"></span>
+                </div>
+            </div>
+            <div id="result"></div>
+            <button id="reset-btn">Try Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
